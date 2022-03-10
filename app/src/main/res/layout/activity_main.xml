@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/Drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"
+        tools:openDrawer="start">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--
+                        <com.google.android.material.appbar.MaterialToolbar
+                            android:id="@+id/topHeader"
+                            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            app:menu="@menu/top_app_bar"
+                            app:navigationIcon="@drawable/icon_menu"
+                            app:title="Category" >
+
+                        </com.google.android.material.appbar.MaterialToolbar>-->
+
+            <RelativeLayout
+                android:id="@+id/topHeader"
+                android:layout_width="match_parent"
+                android:background="@color/purple_500"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:src="@drawable/ic_menu"
+                    android:visibility="gone"
+                    app:tint="@color/white"></ImageView>
+
+                <TextView
+                    android:id="@+id/tvTopHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp" />
+
+
+
+            </RelativeLayout>
+
+
+
+            <!--
+                        app:menu="@menu/top_app_bar"
+            -->
+            <!--
+                </com.google.android.material.appbar.AppBarLayout>
+            -->
+
+            <FrameLayout
+                android:id="@+id/frameDemo1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/chipbar"
+                android:layout_below="@id/topHeader"
+                tools:ignore="NotSibling"></FrameLayout>
+
+
+<!--
+            <com.fxn.BubbleTabBar
+                android:id="@+id/bubbleTabBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:elevation="16dp"
+                android:layout_alignParentBottom="true"                android:padding="7dp"
+                app:bubbletab_menuResource="@menu/botton_navigation_menu"
+                app:bubbletab_custom_font="@font/font_arial"
+                app:bubbletab_disabled_icon_color="@color/blue"
+                app:bubbletab_horizontal_padding="20dp"
+                app:bubbletab_icon_size="20dp"
+                app:bubbletab_title_size="16sp"
+                app:bubbletab_icon_padding="5sp"
+                app:bubbletab_vertical_padding="10dp">
+            </com.fxn.BubbleTabBar>
+-->
+<!--
+            <com.google.android.material.chip.Chip
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/rounded"
+                android:elevation="@dimen/_16sdp"
+                android:padding="@dimen/_7sdp"
+                app:cnb_menuResource="menu/bottom_navigation_menu"
+                />
+-->
+
+            <com.ismaeldivita.chipnavigation.ChipNavigationBar
+                android:id="@+id/chipbar"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/blue"
+                android:elevation="16dp"
+                android:padding="8dp"
+                app:cnb_menuResource="@menu/botton_navigation_menu" />
+        </RelativeLayout>
+<!--
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            android:overScrollMode="never"
+            android:visibility="visible"
+            app:headerLayout="@layout/header_navigation_drawer"
+            app:menu="@menu/navigation_drawer" />
+-->
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</layout>

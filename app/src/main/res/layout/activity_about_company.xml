@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context=".activity.AboutCompanyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/backIV"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="All Clean Services"
+            android:gravity="center"
+            android:layout_marginVertical="@dimen/_10sdp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#9C9C9C"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="What makes a good mission statement? Is it a succinct sentence that captures your company purpose, a catchy slogan, or something more? The best mission statements leave a lasting impression of your brand in the minds of your consumers, encouraging them to choose you over another vendor. A quality mission statement incorporates your company core values and reflects your organization’s personality. So, how do you get started with crafting your own? And which companies are doing it right?/n A mission statement is defined as an action-based statement that declares the purpose of an organization and how they serve their customers. This sometimes includes a description of the company, what it does, and its objectives./When creating a mission statement, avoid the common pratfall of trying to summarize your company’s services in a generic sentence./nOnce leadership has bought into your mission statement, you’re ready to start communicating about it to your employees.
+
+
+
+"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"/>
+</LinearLayout>
+
+</layout>

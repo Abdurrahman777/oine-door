@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OneDoor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descrption">After querying property information (neighborhood, the number of rooms, price, etc.), home buyers will see listing results that match their search. On the search results page, property photos immediately attract their eyeballs. Pictures make the first and strongest impression. Regarding image quality, you can take the photographs or your listing agent can take them, but the best results come from professional freelancers who specialize in real estate photography. Youll be looking at a couple hundred bucks for top notch work Whats more some pros can also make drone videos or virtual tours In any case property photos should be high resolution so that they are clear</string>
+    <string name="logout">Logout</string>
+    <string name="metter">Thery are  $2 on sign Up you get $2 when they toke their first srvice</string>
+</resources>

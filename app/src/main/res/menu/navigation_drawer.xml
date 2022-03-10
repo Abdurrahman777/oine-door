@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/booking"
+        android:enabled="true"
+        android:icon="@drawable/ic_booking"
+        android:title="Booking"/>
+    <item
+        android:id="@+id/rewards"
+        android:enabled="true"
+        android:icon="@drawable/ic_rewards"
+        android:title="Rewards"/>
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/share"
+        android:enabled="true"
+        android:icon="@drawable/ic_share"
+        android:title="Share"/>
+
+</menu>

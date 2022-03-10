@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TermsActivity"
+     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/backIV"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/ic_backspace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="One Company"
+            android:gravity="center"
+android:textSize="@dimen/_12sdp"
+            android:layout_marginVertical="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:text="Term and Condition"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:fontFamily="serif"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:text="1.  In order to be a eligible to refer to refer someone  to a\n service the user must have gotten at least one UC service delivered.\n \n 2.The Cradit recevied from a referral Can only be\n redeemed as a discount on services availed on the UC app or website.\n\n 3.UC reserves the Right to allocate different  reward values to diffrent users and diffrent servive categories\n\n 4.User Can claim at most 1 referral reward per\n category of service "
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:text="5.  In order to be a eligible to refer to refer someone  to a\n service the user must have gotten at least one UC service delivered.\n \n 6.The Cradit recevied from a referral Can only be\n redeemed as a discount on services availed on the UC app or website.\n\n 7.UC reserves the Right to allocate different  reward values to diffrent users and diffrent servive categories\n\n 8.User Can claim at most 1 referral reward per category of service "
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"/>
+
+</LinearLayout>
+    </ScrollView>
+</layout>

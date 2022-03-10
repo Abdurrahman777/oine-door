@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:cnb_backgroundColor="#E8B0C3"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"
+
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/booking"
+        android:icon="@drawable/ic_booking"
+        android:title="Booking"
+        app:cnb_backgroundColor="#E8B0C3"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"
+        />
+    <item
+        android:id="@+id/rewards"
+        android:icon="@drawable/ic_rewards"
+        android:title="Rewards"
+        app:cnb_backgroundColor="#E8B0C3"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"
+        app:cnb_backgroundColor="#E8B0C3"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff"
+        />
+
+</menu>

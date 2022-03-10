@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "586050228932",
+    "project_id": "onedoor-487c9",
+    "storage_bucket": "onedoor-487c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586050228932:android:dd0af3162031a467176f91",
+        "android_client_info": {
+          "package_name": "com.ps.onedoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586050228932-lc0ul6brk9224rjng4hbl40po18742qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ps.onedoor",
+            "certificate_hash": "5c52b800e2746c96f159c6b13a6b2270e81fec6b"
+          }
+        },
+        {
+          "client_id": "586050228932-ed0qo1u789ip59ok6lmh95ltf3q0rknh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4yIp_-lc1MqFPrOCH58KtEblAPo1_RqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586050228932-ed0qo1u789ip59ok6lmh95ltf3q0rknh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

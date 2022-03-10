@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2111111111111111" />
+        <entry key="app/src/main/res/drawable-v24/active_dot.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable-v24/non_active_dot.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/active_dot.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/backbutton.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/bg_button_round.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/drawable/ic_backspace.xml" value="0.2037037037037037" />
+        <entry key="app/src/main/res/drawable/loginback.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/loginbg.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/drawable/non_active_dot.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/rounded.xml" value="0.15104166666666666" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/layout/activity_about_company.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_all_cleanerservices.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_all_repairserive.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_allservice.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_itemview.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_terms.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/adapter_view_pager.xml" value="0.12291666666666666" />
+        <entry key="app/src/main/res/layout/allservicecategoryadapterlayout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/categoryadpterlayout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_booking.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/fragment_reward.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/header_navigation_drawer.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/repairadapterlayout.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/salonadapterlayout.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/testadapterlayout.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/menu/botton_navigation_menu.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/menu/list.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/searchmenu.xml" value="0.26197916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
